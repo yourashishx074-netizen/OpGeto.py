@@ -34,7 +34,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", 8882297263))
 LOGGER_ID = int(os.environ.get("LOGGER_ID", -1004380807747))
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Elevenyts:Elevenyts@cluster0.vuyc1u2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-FORCE_CHANNEL = "@https://t.me/ABOUT_GETO"
+FORCE_CHANNEL = "ABOUT_GETO"
 OWNER_USERNAME = "ll_DARK_GETO_ll"
 
 BRAND = "ɢᴇᴛᴏ x ʜᴏꜱᴛᴇʀ"
