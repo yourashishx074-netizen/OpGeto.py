@@ -34,13 +34,13 @@ OWNER_ID = int(os.environ.get("OWNER_ID", 8882297263))
 LOGGER_ID = int(os.environ.get("LOGGER_ID", -1004380807747))
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Elevenyts:Elevenyts@cluster0.vuyc1u2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-FORCE_CHANNEL = "ll_NAGUMO_lll"
-OWNER_USERNAME = "ll_NAGUMO_ll"
+FORCE_CHANNEL = "@ABOUT_GETO"
+OWNER_USERNAME = "@ll_DARK_GETO_ll"
 
-BRAND = "ᴀꜱʜɪꜱʜ x ʜᴏꜱᴛᴇʀ"
+BRAND = "ɢᴇᴛᴏ x ʜᴏꜱᴛᴇʀ"
 DISPLAY_BRAND = BRAND
-MASTER = "ASHISH"
-SIGNATURE = "ᴀꜱʜɪꜱʜ x ʜᴏꜱᴛᴇʀ"
+MASTER = "GETO"
+SIGNATURE = "ɢᴇᴛᴏ x ʜᴏꜱᴛᴇʀ"
 
 START_TIME = time.monotonic()
 PHOTO_CACHE_PATH = "welcome_photo.jpg"
@@ -404,7 +404,7 @@ def start_buttons():
         [Button.inline("「 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 」", b"menu_help_cats")],
         [
             Button.inline("「 ʜᴇʟᴘ 」", b"open_help_guide"),
-            Button.url("「 ꜱᴜᴘᴘᴏʀᴛ ɢᴄ 」", "https://t.me/Rinnegan_anime_group")
+            Button.url("「 ꜱᴜᴘᴘᴏʀᴛ ɢᴄ 」", "https://t.me/+YZfoQ-7YsRliODU1")
         ],
         [Button.url("「 ᴏᴡɴᴇʀ 」", f"https://t.me/{OWNER_USERNAME}")],
         [Button.inline("「 ʟᴏɢɪɴ ᴜꜱᴇʀʙᴏᴛ 」", b"start_login")]
@@ -634,7 +634,7 @@ FORCE_JOIN_TEXT = (
 def build_welcome_message(first_name: str):
     header_block = (
         "╭─────────────── ✦ ───────────────╮\n"
-        "       ⚡ 𝐖ᴇʟᴄᴏᴍᴇ 𝐓ᴏ 𝐀sʜɪsʜ 𝐗 𝐇ᴏsᴛᴇʀ ⚡\n"
+        "       ⚡ 𝐖ᴇʟᴄᴏᴍᴇ 𝐓ᴏ ɢᴇᴛᴏ 𝐗 𝐇ᴏsᴛᴇʀ ⚡\n"
         "╰─────────────── ✦ ───────────────╯\n\n"
     )
     part_greet = f"👋 𝐇ᴇʏ {first_name}, 𝐖ᴇʟᴄᴏᴍᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐏ᴏᴡᴇʀғᴜʟ 𝐔sᴇʀʙᴏᴛ!\n\n"
